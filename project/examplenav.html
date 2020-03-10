@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nav</title>
+
+</head>
+<link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+	<header>
+<nav class="navbar navbar" id="nav">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <button type="button " class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div>
+      <a class="navbar-brand" id="img"> <img src="IMAGE/logo-sasurie.png" id="img1"></a>
+    </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <div class="text">
+          <h1 class="text1" align="center">Feed Back</h1>
+        </div>
+      </li>
+      </div>
+     
+      <div class="icon-bar">
+      	<button= data-toggle="modal" data-target="#myModal"><i class="fa fa-user-circle-o"></i></button>
+      	<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <form action="dept.html" method="POST">
+           <button type="button" class="close"></button></form>
+           <form action="principal.html" method="POST">
+          <button type="submit" class="btn btn-primary">Log out</button>
+       <button type="button" class="close">&times;</button></form>
+        </div>
+        <div class="modal-body"><form action="password.html" method="POST">
+          <button type="submit" class="btn btn-primary">Change password </button> </form>      </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+      </div>
+    </div>
+      </div>
+
+  
+</nav>
+</header>
+
+
+
+</body>
+<style type="text/css">
+	#nav
+{
+  box-shadow: 0px 0px 5px #caefca;
+ padding: 20px; 
+background-color: #66d9ff;
+ border:none;  
+}
+.navbar-toggle
+{
+  background-color:#c9e6c9;
+  box-shadow: 0px 0px 3px #c9e6c9;
+  width: 30px;
+  height: 25px;
+}
+#img1
+{
+  margin-left:-27%;
+  margin-top:-27%;
+  width: 100%;
+  position: relative;
+
+}
+.fa
+{
+ float:right;
+ font-size:50px;
+ margin-top:-5%;
+
+}
+
+.icon-bar a {
+    
+    
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+
+</style>
+</html>
